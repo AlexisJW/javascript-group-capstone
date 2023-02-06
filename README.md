@@ -204,7 +204,7 @@ If you like this project, give it a star, please!
 
 - **[How much times did you spend to build this project?]**
 
-  - [Only 24 hours.]
+  - [Only 25 hours.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
