@@ -5,7 +5,7 @@ module.exports = {
       startServerCommand: 'npm run server',
       url: ['http://localhost:8080/'],
       startServerReadyPattern: 'Server is running on PORT 8080',
-      startServerReadyTimeout: 80000, // milliseconds
+      startServerReadyTimeout: 8000000,//econds
       numberOfRuns: 5,
     },
     upload: {
