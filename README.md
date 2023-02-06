@@ -2,10 +2,10 @@
 
 <div align="center">
 
-  <img src="leaderboard.JPG" alt="logo" width="250"  height="250" />
+  <img src="" alt="logo" width="250"  height="250" />
   <br/>
 
-  <h3><b> Leaderboard </b></h3>
+  <h3><b> JavaScript Capstone Project </b></h3>
 
 </div>
 
@@ -35,13 +35,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Project - Leaderboard
-**Leaderboard** list app is a JavaScript project that uses webpack and ES6 features, including modules.
-  Developed from wireframe and uses API using asynchronous and pending JavaScript.
+# 📖 Project - JavaScript Capstone Project
+**JavaScript Capstone Project** is a project about building your own web application based on an external API..
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### By Microverse Student, Alexis <a name="tech-stack"></a>
+### By Microverse Student, Alexis And Newton <a name="tech-stack"></a>
 
 <details>
   <summary> Client </summary>
@@ -75,14 +74,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Set up a JavaScript project for the Leaderboard list app]**
-- **[Use callbacks and promises.]**
-- **[Learn how to use proper ES6 syntax..]**
-- **[Use ES6 modules to write modular JavaScript.]**
-- **[Use webpack to bundle JavaScript.]**
-- **[Write plain HTML markup with minimum styling (just to make the layout).]**
-- **[The section "Featured speakers" is created dynamically in JavaScript.]**
-- **[Deploy the project.]**
+- **[Set up the project with webpack, jest, and linters]**
 - **[Open a pull request.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,7 +83,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://alexisjw.github.io/leadearbord/dist/)
+- [Not available]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +115,7 @@ Clone this repository to your desired folder:
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
 
-`git clone <https://github.com/AlexisJW/M1-Capstone.git>`
+`git clone <https://github.com/AlexisJW/javascript-group-capstone.git>`
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
@@ -192,7 +184,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, let me know in my email: jeanwalneralexis@yahoo.com, please!
+If you like this project, give it a star, please!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,7 +204,7 @@ If you like this project, let me know in my email: jeanwalneralexis@yahoo.com, p
 
 - **[How much times did you spend to build this project?]**
 
-  - [Only 10 hours.]
+  - [Only 23 hours.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,6 +212,6 @@ If you like this project, let me know in my email: jeanwalneralexis@yahoo.com, p
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/AlexisJW/leadearbord/blob/final-touches/LICENSE">MIT</a>
+This project is <a href="https://github.com/AlexisJW/javascript-group-capstone/blob/development/LICENSE">MIT</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
