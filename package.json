@@ -8,7 +8,8 @@
     "build": "webpack",
     "start": "webpack serve --open",
     "watch": "webpack --watch",
-    "server": "node server.js"
+    "server": "node server.js",
+    "serve:lhci": "npm run server"
   },
   "repository": {
     "type": "git",
