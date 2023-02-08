@@ -5,13 +5,13 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
-        filename: 'main.js',
+        filename: './main.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
     devtool: 'inline-source-map',
     devServer: {
-        port: 5000,
+        static: './dist',
     },
     plugins: [
         new HtmlWebpackPlugin({
