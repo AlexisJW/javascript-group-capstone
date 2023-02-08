@@ -89,6 +89,10 @@ button {
   margin-bottom: 6px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 #cards-container {
   display: grid;
   grid-template-columns: auto auto auto;
