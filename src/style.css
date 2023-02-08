@@ -11,6 +11,44 @@ body {
   background-attachment: fixed;
 }
 
+footer h3 {
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.nav {
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px 100px 0 0;
+}
+
+.menu {
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.menu a {
+  margin: 0 20px;
+  justify-content: space-evenly;
+}
+
 .shadow-card {
   border: 1px solid black;
   width: 300px;
@@ -64,4 +102,3 @@ button {
   .container-item {
     grid-template-columns: auto auto auto;
   }
-}
