@@ -6,10 +6,9 @@
   "scripts": {
     "test": "jest --coverage",
     "build": "webpack",
-    "start": "npx webpack-dev-server",
+    "start": "webpack serve --open",
     "watch": "webpack --watch",
-    "server": "node server.js",
-    "serve:lhci": "npm run server"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
