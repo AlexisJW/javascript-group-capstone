@@ -98,12 +98,13 @@ button:hover {
   grid-template-columns: auto auto auto;
 }
 
-@media screen and (max-width: 360px) {
-  .containers {
-    width: 90%;
+@media screen and (max-width: 768px) {
+  .shadow-card {
+    margin: 6vh auto;
   }
 
-  .container-item {
-    grid-template-columns: auto auto auto;
+  #cards-container {
+    display: grid;
+    grid-template-columns: auto;
   }
 }
