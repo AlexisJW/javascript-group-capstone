@@ -2,6 +2,7 @@ import './style.css';
 import myBackground from './assets/bg.jpg';
 import homePage from '../modules/ui.js';
 import addLike from '../modules/addLikes.js';
+import itemsCounter from '../modules/itemsCounter.js';
 // import createApiId from '../modules/involveApi.js';
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -22,4 +23,5 @@ document.querySelector('#cards-container').addEventListener('DOMSubtreeModified'
       };
     }
   });
+  itemsCounter();
 });
