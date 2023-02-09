@@ -103,6 +103,8 @@ li {
   height: 80vh;
   border-radius: 20px;
   padding: 12px;
+  background: transparent;
+  box-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
 .detail-items {
@@ -110,6 +112,11 @@ li {
   grid-template-columns: 2fr 2fr;
   justify-content: center;
   width: 80vh;
+}
+
+.detail-image {
+  width: 60vw;
+  height: 60vh;
 }
 
 #cards-container {
