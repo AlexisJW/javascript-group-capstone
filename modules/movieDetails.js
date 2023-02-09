@@ -1,16 +1,15 @@
 const detailSection = document.createElement('section');
 detailSection.classList.add('popup');
 
-document.body.insertBefore(detailSection, document.body.children[1])
+document.body.insertBefore(detailSection, document.body.children[1]);
 
 const comments = async (num) => {
-    const requestURL = 'https://api.tvmaze.com/shows';
-    const request = new Request(requestURL);
-    const response = await fetch(request);
-    let resultObj = await response.json();
-    resultObj = resultObj[num]
-    detailSection.innerHTML =
-        `
+  const requestURL = 'https://api.tvmaze.com/shows';
+  const request = new Request(requestURL);
+  const response = await fetch(request);
+  let resultObj = await response.json();
+  resultObj = resultObj[num];
+  detailSection.innerHTML = `
         <button class='close'><i class='fa fa-close fa-10x'></i></button>
             <img src="${resultObj.image.medium}" class="detail-image" alt="Image">
             <h2>
@@ -24,8 +23,7 @@ const comments = async (num) => {
             <li>Average rating: ${resultObj.rating.average}</li>
             <li><a href='${resultObj.officialSite}' target='_blank'>Official Site</a></li>
         </div>
-        `
-        console.log(resultObj);
-}
+        `;
+};
 
 export default comments;
