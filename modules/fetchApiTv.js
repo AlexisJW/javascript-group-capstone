@@ -12,8 +12,9 @@ const populate = async () => {
           <div class="container-item">
             <img src="${obj.image.medium}" alt="Avatar" style="width:100%">
               <div class="container">
-              <h4><b> ${obj.name} </b></h4> 
-              <button style="font-size:14px" id="${obj.id}" class="comments"> Comments <i class="fa fa-comments-o"></i></button> 
+              <h4><b> ${obj.name} </b></h4>
+              <button style="font-size:14px" id="like-${obj.id}" class="like" type="button"> 0 <i class="fa fa-heart-o"></i></button>
+              <button style="font-size:14px" id="${obj.id}" class="comment" type="button" class="comments"> Comments <i class="fa fa-comments-o"></i></button> 
              </div>
           </div>
         </div>
