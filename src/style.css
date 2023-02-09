@@ -98,16 +98,20 @@ li {
 }
 
 .popup {
+  display: flex;
+  position: fixed;
   box-sizing: border-box;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border: 2px solid black;
   width: 80vw;
-  height: 80vh;
+  height: 98vh;
   border-radius: 20px;
-  padding: 12px;
-  background: transparent;
+  padding: 8px;
+  margin: 0;
+  color: black;
+  background: white;
   box-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
@@ -119,8 +123,16 @@ li {
 }
 
 .detail-image {
-  width: 60vw;
-  height: 60vh;
+  width: 30%;
+ margin: 2px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
 }
 
 #cards-container {
