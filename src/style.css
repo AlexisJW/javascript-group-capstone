@@ -11,6 +11,10 @@ body {
   background-attachment: fixed;
 }
 
+h3 {
+  text-align: center;
+}
+
 footer h3 {
   box-sizing: border-box;
   border: 2px solid black;
@@ -109,6 +113,8 @@ li {
   height: 98vh;
   border-radius: 20px;
   padding: 8px;
+  z-index: 1;
+  overflow: auto;
   margin: 0;
   color: black;
   background: white;
@@ -133,6 +139,11 @@ li {
   right: 10px;
   background: transparent;
   border: none;
+}
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
 }
 
 #cards-container {
