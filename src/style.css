@@ -11,6 +11,10 @@ body {
   background-attachment: fixed;
 }
 
+h3 {
+  text-align: center;
+}
+
 footer h3 {
   box-sizing: border-box;
   border: 2px solid black;
@@ -138,10 +142,6 @@ li {
 .comments-section {
   display: flex;
   flex-direction: column;
-}
-
-h3 {
-  text-align: center;
 }
 
 #cards-container {

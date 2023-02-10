@@ -4,7 +4,7 @@ import homePage from '../modules/ui.js';
 import addLike from '../modules/addLikes.js';
 import itemsCounter from '../modules/itemsCounter.js';
 import comments from '../modules/movieDetails.js';
-import showComments from '../modules/showComments';
+import showComments from '../modules/showComments.js';
 // import createApiId from '../modules/involveApi.js';
 
 window.addEventListener('DOMContentLoaded', () => {
