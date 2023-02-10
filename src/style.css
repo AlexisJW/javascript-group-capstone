@@ -146,6 +146,30 @@ li {
   flex-direction: column;
 }
 
+.comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, #submit {
+  margin: 8px;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-items: left;
+}
+
+#username, #submit {
+  width: 70%;
+}
+
+#comment {
+  height: 90px;
+  overflow-x: hidden;
+  overflow: auto;
+}
+
 #cards-container {
   display: grid;
   grid-template-columns: auto auto auto;
