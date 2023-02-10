@@ -5,6 +5,7 @@ import addLike from '../modules/addLikes.js';
 import itemsCounter from '../modules/itemsCounter.js';
 import comments from '../modules/movieDetails.js';
 import showComments from '../modules/showComments.js';
+import '../modules/addComments.js';
 // import createApiId from '../modules/involveApi.js';
 
 window.addEventListener('DOMContentLoaded', () => {
