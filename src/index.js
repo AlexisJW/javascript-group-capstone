@@ -27,10 +27,6 @@ document.querySelector('#cards-container').addEventListener('DOMSubtreeModified'
         comments(e.target.id - 1);
         document.querySelector('.popup').style.display = 'flex';
       };
-    } else if (button.classList.contains('close')) {
-      button.onclick = () => {
-        document.querySelector('.popup').style.display = 'none';
-      };
     }
   });
   itemsCounter();

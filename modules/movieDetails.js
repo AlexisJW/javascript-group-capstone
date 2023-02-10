@@ -10,7 +10,7 @@ const comments = async (num) => {
   let resultObj = await response.json();
   resultObj = resultObj[num];
   detailSection.innerHTML = `
-        <button class='close'><i class='fa fa-close fa-10x'></i></button>
+        <button class='close' id='close'><i class='fa fa-close fa-10x'></i></button>
             <img src="${resultObj.image.medium}" class="detail-image" alt="Image">
             <h2>
                 ${resultObj.name}
@@ -24,6 +24,9 @@ const comments = async (num) => {
             <li><a href='${resultObj.officialSite}' target='_blank'>Official Site</a></li>
         </div>
         `;
+  document.querySelector('#close').onclick = () => {
+    document.querySelector('.popup').style.display = 'none';
+  };
 };
 
 export default comments;
