@@ -3,7 +3,7 @@ import myBackground from './assets/bg.jpg';
 import homePage from '../modules/ui.js';
 import addLike from '../modules/addLikes.js';
 import itemsCounter from '../modules/itemsCounter.js';
-import showComments from '../modules/showComments';
+import showComments from '../modules/showComments.js';
 // import createApiId from '../modules/involveApi.js';
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -22,11 +22,10 @@ document.querySelector('#cards-container').addEventListener('DOMSubtreeModified'
       button.onclick = () => {
         addLike(button.id);
       };
-    }
-    else {
+    } else {
       button.onclick = (e) => {
         showComments(e.target.id);
-      }
+      };
     }
   });
   itemsCounter();
