@@ -1,3 +1,5 @@
+import totalComments from './totalComments.js';
+
 // fetch the tv API and Populate.
 const populate = async () => {
   const cardsContainer = document.querySelector('#cards-container');
@@ -6,7 +8,9 @@ const populate = async () => {
   const response = await fetch(request);
   const resultObj = await response.json();
   cardsContainer.innerHTML = '';
-  resultObj.forEach((obj, index) => {
+  let noComments = 0;
+  resultObj.forEach(async (obj, index) => {
+    noComments = await totalComments(index) || 0;
     cardsContainer.innerHTML += `
         <div class="shadow-card" index=${index}>
           <div class="container-item">
@@ -14,7 +18,7 @@ const populate = async () => {
               <div class="container">
               <h4><b> ${obj.name} </b></h4>
               <button style="font-size:14px" id="like-${obj.id}" class="like" type="button"> 0 <i class="fa fa-heart-o"></i></button>
-              <button style="font-size:14px" id="${obj.id}" class="comment" type="button" class="comments"> Comments <i class="fa fa-comments-o"></i></button> 
+              <button style="font-size:14px" id="${obj.id}" class="comment" type="button" class="comments"> ${noComments} Comments <i class="fa fa-comments-o"></i></button> 
              </div>
           </div>
         </div>
