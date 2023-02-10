@@ -23,6 +23,9 @@ const comments = async (num) => {
             <li>Average rating: ${resultObj.rating.average}</li>
             <li><a href='${resultObj.officialSite}' target='_blank'>Official Site</a></li>
         </div>
+        <div class='comments-section'>
+        <h3>Comments</h3>
+        </div>
         `;
   document.querySelector('#close').onclick = () => {
     document.querySelector('.popup').style.display = 'none';

@@ -135,6 +135,15 @@ li {
   border: none;
 }
 
+.comments-section {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  text-align: center;
+}
+
 #cards-container {
   display: grid;
   grid-template-columns: auto auto auto;
