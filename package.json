@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/AlexisJW/javascript-group-capstone",
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "babel-eslint": "^10.1.0",
@@ -53,8 +52,5 @@
     "jsdom": "^20.0.1",
     "lodash": "^4.17.21",
     "webpack-dev-middleware": "^6.0.1"
-  },
-  "jest": {
-    "testEnvironment": "jest-environment-jsdom"
   }
 }
