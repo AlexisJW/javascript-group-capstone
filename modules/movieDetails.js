@@ -1,3 +1,5 @@
+import addComments from './addComments.js';
+
 const detailSection = document.createElement('section');
 detailSection.classList.add('popup');
 
@@ -24,11 +26,20 @@ const comments = async (num) => {
             <li><a href='${resultObj.officialSite}' target='_blank'>Official Site</a></li>
         </div>
         <div class='comments-section'>
-        <h3>Comments</h3>
+            <h3>Comments</h3>
+        </div>
+        <div class='comment-form' id='form'>
+            <h3>Add a comment</h3>
+            <input type='text' id='username' placeholder='Your name' required>
+            <input type='text' id='comment' placeholder='Your insights' required>
+            <button type='submit' class='submit' id='submit'>Comment</button>
         </div>
         `;
   document.querySelector('#close').onclick = () => {
     document.querySelector('.popup').style.display = 'none';
+  };
+  document.querySelector('#submit').onclick = () => {
+    addComments(num);
   };
 };
 
