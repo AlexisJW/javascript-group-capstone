@@ -98,7 +98,7 @@ li {
 }
 
 .popup {
-  display: flex;
+  display: none;
   position: fixed;
   box-sizing: border-box;
   justify-content: center;
