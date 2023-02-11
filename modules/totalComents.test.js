@@ -17,8 +17,8 @@ describe('totals', () => {
     expect(events.children.length).toBe(2);
   });
 
-// Test that the number of comments is correct
-it('should return 2', () => {
+  // Test that the number of comments is correct
+  it('should return 2', () => {
     document.body.innerHTML = `
      <div id="events">
        <div id="event">
