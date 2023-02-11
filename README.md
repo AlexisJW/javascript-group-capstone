@@ -83,7 +83,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not available]()
+- [Live Demo](https://alexisjw.github.io/javascript-group-capstone/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
