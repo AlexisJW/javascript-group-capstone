@@ -159,6 +159,11 @@ To run tests, run the following command:
 - GitHub: [@githubhandle](https://github.com/AlexisJW)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-walner-alexis-b05539175/)
 
+👤 **Alhassan (Newton) Osman**
+
+- GitHub: [@githubhandle](https://github.com/flemton)
+- LinkedIn: [Alhassan Osman](https://www.linkedin.com/in/alhassan-o-83039a80/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -212,6 +217,6 @@ If you like this project, give it a star, please!
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/AlexisJW/javascript-group-capstone/blob/development/LICENSE">MIT</a>
+This project is <a href="https://github.com/AlexisJW/javascript-group-capstone/blob/development/LICENSE">MIT</a> licensed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
