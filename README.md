@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="" alt="logo" width="250"  height="250" />
+  <img src="./show-time.png" alt="logo" width="250"  height="250" />
   <br/>
 
   <h3><b> JavaScript Capstone Project </b></h3>
@@ -84,6 +84,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://alexisjw.github.io/javascript-group-capstone/dist/)
+
+- [Live Demo Video](https://drive.google.com/file/d/19k3GJb6RgeyGVfXIrKtp5sXR8gJcv6Yt/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
