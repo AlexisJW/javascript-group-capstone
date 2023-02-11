@@ -2,3 +2,4 @@ node_modules/
 coverage/
 .vs
 .DS_Store
+coverage/

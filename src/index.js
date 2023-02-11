@@ -32,5 +32,5 @@ document.querySelector('#cards-container').addEventListener('DOMSubtreeModified'
       };
     }
   });
-  itemsCounter();
+  document.querySelector('#item-count').textContent = `Movies(${itemsCounter()})`;
 });
