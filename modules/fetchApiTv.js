@@ -7,6 +7,7 @@ const populate = async () => {
   const request = new Request(requestURL);
   const response = await fetch(request);
   const resultObj = await response.json();
+  resultObj.sort();
   cardsContainer.innerHTML = '';
   let noComments = 0;
   resultObj.forEach(async (obj, index) => {

@@ -31,6 +31,19 @@ footer h3 {
   flex-direction: row;
   justify-content: center;
   margin: 25px 100px 0 0;
+  align-items: center;
+}
+
+#logo {
+  background: grey;
+  height: 52px;
+  width: 104px;
+  margin: 10px 70px;
+}
+
+#logo:active,
+#logo:hover {
+  background: yellow;
 }
 
 .menu {
@@ -40,12 +53,13 @@ footer h3 {
 a {
   text-decoration: none;
   font-size: 25px;
+  color: grey;
 }
 
 a:active,
 a:hover {
   text-decoration: underline;
-  color: blue;
+  color: yellow;
 }
 
 .menu a {
@@ -95,6 +109,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  background: yellow;
 }
 
 li {
