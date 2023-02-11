@@ -6,11 +6,14 @@ import itemsCounter from '../modules/itemsCounter.js';
 import comments from '../modules/movieDetails.js';
 import showComments from '../modules/showComments.js';
 import '../modules/addComments.js';
+import showtime from './assets/show-time.png';
 // import createApiId from '../modules/involveApi.js';
 
 window.addEventListener('DOMContentLoaded', () => {
   const backGroundImg = document.getElementsByTagName('body');
   backGroundImg.src = myBackground;
+  const logo = document.querySelector('#logo');
+  logo.src = showtime;
 
   homePage();
   // createApiId();

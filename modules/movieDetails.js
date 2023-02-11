@@ -10,6 +10,7 @@ const comments = async (num) => {
   const request = new Request(requestURL);
   const response = await fetch(request);
   let resultObj = await response.json();
+  resultObj.sort();
   resultObj = resultObj[num];
   detailSection.innerHTML = `
         <button class='close' id='close'><i class='fa fa-close fa-10x'></i></button>
