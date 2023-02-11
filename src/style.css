@@ -144,8 +144,10 @@ li {
 }
 
 .detail-image {
+  position: initial;
   width: 30%;
   margin: 2px;
+  padding-top: 240px;
 }
 
 .close {
